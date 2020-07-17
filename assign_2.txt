@@ -1,0 +1,28 @@
+
+1) Which field of the Customers table is the primary key?
+
+cnum is primary key in Customers table.
+=====================================================================================
+2) What is the 4th column of the Customers table?
+
+rating is 4th column of the Customers table of int type
+=====================================================================================
+3) What is another word for row? For column?
+
+another word for row:Tuple,entity,opportunity
+another word for column:attribute,method
+=====================================================================================
+
+4) Why isn’t it possible to see the first five rows of a table?
+
+=>In RDBMS table not a file, every single row is a file.
+=>When we INSERT row into table, RDBMS not preserved insertion order.
+=>Rows are scattered in database server hard disk.
+=>If we INSERT a row into table that row finds free space in database server hard disk
+  once row get their free space then inserted at that position
+=>Suppose we UPDATE any row and if length of that row is increasing then the same row not 
+  inserted at that position it finds new empty position and inserted. This cndition only applicable
+  for VARCHAT because it is a variable length datatype.
+==>due to above reasons it possible to see the first five rows of a table.  
+
+
